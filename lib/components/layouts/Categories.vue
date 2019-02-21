@@ -1,7 +1,7 @@
 <template>
   <div class="categories">
     <div class="main-div">
-      <h2>文章分类 | Categories</h2>
+      <h2> {{ pageTitle }} $t('LAYOUTS.categories') }}</h2>
 
       <RouterLink
         v-for="cate in $categories.list"
@@ -19,12 +19,20 @@
 
 <script>
 import IconTag from '../IconTag.vue'
-
+const that = this
 export default {
   name: 'Categories',
 
   components: {
     IconTag,
   },
+
+  computed: {
+    pageTitle: () => {
+      console.log('that: ', that)
+      return 'CategTest'
+    },
+  },
+
 }
 </script>

@@ -46,7 +46,8 @@
     "geopattern": "^1.2.3",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
-    "vuepress-plugin-smooth-scroll": "^0.0.3"
+    "vuepress-plugin-smooth-scroll": "^0.0.3",
+    "vue-i18n": "^8.8.2"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
