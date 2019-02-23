@@ -29,7 +29,7 @@ export default {
 
   computed: {
     pageTitle: () => {
-      console.log('that: ', that)
+      console.log('that: ', this.$t('LAYOUTS.categories'))
       return 'CategTest'
     },
   },
